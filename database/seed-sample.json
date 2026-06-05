@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "project": "100种不可思议旅行",
+    "description": "种子数据样本 — 包含 3 个目的地及其关联数据",
+    "last_updated": "2026-06-05"
+  },
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "自然奇观",
+      "slug": "natural-wonders",
+      "description": "大自然鬼斧神工的杰作，令人叹为观止的地质与生态奇景",
+      "icon": "🌋",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "地下秘境",
+      "slug": "underground-wonders",
+      "description": "隐藏在地表之下的奇幻世界，洞穴、暗河与地下城市",
+      "icon": "🕳️",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "name": "色彩之地",
+      "slug": "chromatic-places",
+      "description": "用色彩震撼视觉的旅行目的地，饱和度拉满的极致体验",
+      "icon": "🎨",
+      "sort_order": 3
+    }
+  ],
+
+  "tags": [
+    { "id": 1, "name": "星空摄影", "slug": "astrophotography" },
+    { "id": 2, "name": "无人机必飞", "slug": "drone-friendly" },
+    { "id": 3, "name": "日出日落", "slug": "sunrise-sunset" },
+    { "id": 4, "name": "洞穴探险", "slug": "caving" },
+    { "id": 5, "name": "被低估", "slug": "underrated" },
+    { "id": 6, "name": "此生必去", "slug": "bucket-list" },
+    { "id": 7, "name": "INS网红", "slug": "instagrammable" },
+    { "id": 8, "name": "生态奇观", "slug": "ecological" }
+  ],
+
+  "destinations": [
+    {
+      "id": 1,
+      "title": "玻利维亚 · 天空之镜",
+      "title_en": "Salar de Uyuni",
+      "slug": "salar-de-uyuni",
+      "subtitle": "世界最大的镜面，漫步在云端之上",
+      "summary": "乌尤尼盐沼是世界上最大的盐滩，面积超过 10,000 平方公里。雨季时，一层薄水覆盖盐壳，形成一面完美的天然镜面，天地融为一体。",
+      "description": "## 为什么不可思议\n\n乌尤尼盐沼（Salar de Uyuni）位于玻利维亚西南部，海拔 3,656 米，是地球上最大的盐滩。这里蕴藏着超过 100 亿吨盐，也是全球一半锂储量的所在地。\n\n### 镜面奇观\n\n每年 12 月至次年 3 月的雨季，盐沼表面覆盖一层薄薄的积水，将天空完美倒映——地平线消失，仿佛站立在云端。NASA 校准地球观测卫星时，甚至将这里作为反射率参照点。\n\n### 星空绝景\n\n旱季的盐沼干燥龟裂，形成六边形盐格。而在无月的夜晚，银河横跨天际，星光与盐晶交相辉映——这里是南半球最佳星空观测地之一。\n\n### 仙人掌岛\n\n盐沼中心的印卡瓦西岛（Isla Incahuasi）是一座由巨大仙人掌覆盖的化石珊瑚礁——远古海洋的遗骸，伫立在盐的海洋中。",
+      "country": "玻利维亚",
+      "region": "波托西省",
+      "continent": "南美洲",
+      "latitude": -20.1338,
+      "longitude": -67.4893,
+      "elevation": 3656,
+      "best_season": "12月 - 3月（雨季镜面） / 6月 - 8月（旱季星空）",
+      "difficulty": "moderate",
+      "duration": "3-4天",
+      "budget": "moderate",
+      "crowd_level": "low",
+      "temperature": "-5°C ~ 15°C",
+      "visa_info": "持中国护照可落地签",
+      "language": "西班牙语、克丘亚语",
+      "currency": "玻利维亚诺 (BOB)",
+      "timezone": "UTC-4",
+      "fun_facts": [
+        "盐沼厚度从几厘米到 10 米不等，总盐量相当于整个地球人口 40 年的食盐消费量",
+        "每年有超过 25,000 只火烈鸟在附近湖泊繁殖，以盐沼中的藻类和卤虫为食",
+        "盐沼的平坦度极值偏差不到 1 米——在整个 10,000 km² 范围内",
+        "这里被用作电影《星球大战：最后的绝地武士》中 Crait 星球的外景地"
+      ],
+      "travel_tips": [
+        "必须带墨镜——白天的盐沼反射极强，不戴墨镜几乎无法睁眼",
+        "雨季进入盐沼需要四驱越野车，务必找有经验的当地向导",
+        "日出和日落是拍摄镜面倒影的黄金时间，正午反光过强",
+        "海拔高，注意高原反应，提前在拉巴斯或波托西适应 1-2 天",
+        "夜间拍摄星空需准备三脚架和保暖衣物（旱季夜间可低至 -15°C）"
+      ],
+      "safety_notes": "高原反应是主要风险。海拔 3,656 米，建议提前服用高原安。雨季部分路段可能被淹，切勿自行进入未标记区域。夜间温度极低，务必携带充足保暖装备。",
+      "getting_there": {
+        "nearest_airport": "乌尤尼机场 (UYU)",
+        "routes": [
+          "从拉巴斯乘飞机 1 小时直达乌尤尼镇",
+          "从拉巴斯乘夜班大巴约 10-12 小时（不推荐，路况差）",
+          "从智利阿塔卡马沙漠跨境进入（需提前安排签证和交通）"
+        ],
+        "local_transport": "乌尤尼镇出发的盐沼 Tour 是唯一可行的游览方式，通常为 1-4 天团"
+      },
+      "cover_image_url": "/images/destinations/salar-de-uyuni/cover.jpg",
+      "thumbnail_url": "/images/destinations/salar-de-uyuni/thumb.jpg",
+      "status": "published",
+      "sort_order": 1,
+
+      "categories": [
+        { "id": 1, "name": "自然奇观", "slug": "natural-wonders" }
+      ],
+      "tags": [
+        { "id": 1, "name": "星空摄影", "slug": "astrophotography" },
+        { "id": 2, "name": "无人机必飞", "slug": "drone-friendly" },
+        { "id": 3, "name": "日出日落", "slug": "sunrise-sunset" },
+        { "id": 6, "name": "此生必去", "slug": "bucket-list" },
+        { "id": 7, "name": "INS网红", "slug": "instagrammable" }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/destinations/salar-de-uyuni/01-mirror.jpg",
+          "thumbnail_url": "/images/destinations/salar-de-uyuni/01-mirror-thumb.jpg",
+          "alt_text": "雨季镜面效果：人站立在盐沼中，倒影完美对称",
+          "width": 2400,
+          "height": 1350,
+          "sort_order": 0,
+          "is_cover": 1,
+          "photographer": "Daniel Campos",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        },
+        {
+          "id": 2,
+          "url": "/images/destinations/salar-de-uyuni/02-stars.jpg",
+          "thumbnail_url": "/images/destinations/salar-de-uyuni/02-stars-thumb.jpg",
+          "alt_text": "旱季银河横跨盐沼上空，六边形盐格纹理清晰",
+          "width": 2400,
+          "height": 1600,
+          "sort_order": 1,
+          "is_cover": 0,
+          "photographer": "Diego Salgado",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        },
+        {
+          "id": 3,
+          "url": "/images/destinations/salar-de-uyuni/03-island.jpg",
+          "thumbnail_url": "/images/destinations/salar-de-uyuni/03-island-thumb.jpg",
+          "alt_text": "印卡瓦西岛上的巨大仙人掌与白色盐沼形成强烈对比",
+          "width": 2400,
+          "height": 1600,
+          "sort_order": 2,
+          "is_cover": 0,
+          "photographer": "Mauricio Cuéllar",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "新西兰 · 萤火虫星河",
+      "title_en": "Waitomo Glowworm Caves",
+      "slug": "waitomo-glowworm-caves",
+      "subtitle": "在地下洞穴中仰望蓝色银河",
+      "summary": "怀托摩洞穴群的地下河道中，成千上万只萤火虫（Arachnocampa luminosa）发出幽蓝光芒，如同地下的璀璨星空。",
+      "description": "## 为什么不可思议\n\n怀托摩（Waitomo）在毛利语中意为「水洞」，这里的萤火虫洞是新西兰最古老的自然奇观之一。与普通萤火虫不同，这里的发光蠕虫（Arachnocampa luminosa）是新西兰独有物种，只存在于新西兰和澳大利亚东南部。\n\n### 地下银河\n\n乘小船进入完全黑暗的洞穴，头顶是成千上万只萤光蠕虫——每只吐出长达数十厘米的黏丝，用蓝绿色微光吸引猎物。它们在洞顶形成的光点密度可达每平方米数百只，如同银河倾泻而下。\n\n### 黑水漂流\n\n除了乘船观赏，你还可以穿上潜水服、套上轮胎内胎，在暗河中漂流。头顶是萤火虫，身下是地下暗流——肾上腺素与浪漫的极致融合。\n\n### 地质奇观\n\n洞穴本身形成于 3000 万年前，由酸性水流侵蚀石灰岩而成。洞内遍布钟乳石、石笋、石柱——每一厘米需要约 100 年才能形成。",
+      "country": "新西兰",
+      "region": "怀卡托地区",
+      "continent": "大洋洲",
+      "latitude": -38.2621,
+      "longitude": 175.1142,
+      "elevation": 110,
+      "best_season": "全年（最佳：11月-4月，水量适中）",
+      "difficulty": "easy",
+      "duration": "1-2天",
+      "budget": "moderate",
+      "crowd_level": "medium",
+      "temperature": "10°C ~ 14°C（洞内恒温）",
+      "visa_info": "持中国护照需提前申请新西兰旅游签证",
+      "language": "英语、毛利语",
+      "currency": "新西兰元 (NZD)",
+      "timezone": "UTC+12",
+      "fun_facts": [
+        "发光蠕虫的幼虫期长达 6-9 个月，但成虫仅存活 1-2 天——它们没有嘴，唯一的使命是交配产卵",
+        "幼虫越饥饿，光亮越强——它们用光来吸引飞虫自投罗网",
+        "洞穴的最深处因一次 7.8 级地震在 2021 年被部分封堵，形成了新的地质景观",
+        "毛利酋长 Tane Tinorau 和英国测量师 Fred Mace 在 1887 年首次探索这个洞穴——用蜡烛照明、用亚麻茎扎成的筏子渡水"
+      ],
+      "travel_tips": [
+        "洞穴内绝对禁止拍照（光线和声音会干扰萤火虫），但官方提供专业摄影 Tour",
+        "推荐黑水漂流公司「The Legendary Black Water Rafting Co.」——他们是最早的运营者",
+        "穿速干衣，带一套备用衣物——漂流一定会湿透",
+        "提前至少一周预订，特别是黑水漂流行程名额极少",
+        "附近还有鲁阿库里洞穴（Ruakuri Cave），有轮椅通道，适合行动不便的游客"
+      ],
+      "safety_notes": "洞穴湿滑，务必穿防滑鞋。黑水漂流有年龄限制（通常 12 岁以上），不会游泳也可以参加——穿着救生衣。幽闭恐惧症患者慎选深入洞穴的行程。",
+      "getting_there": {
+        "nearest_airport": "奥克兰国际机场 (AKL) 或汉密尔顿机场 (HLZ)",
+        "routes": [
+          "从奥克兰自驾约 2.5 小时（全程高速）",
+          "从罗托鲁瓦自驾约 2 小时",
+          "从奥克兰乘长途巴士 InterCity 约 3 小时"
+        ],
+        "local_transport": "自驾最方便。如果不自驾，可报名从奥克兰/罗托鲁瓦出发的一日游团"
+      },
+      "cover_image_url": "/images/destinations/waitomo/cover.jpg",
+      "thumbnail_url": "/images/destinations/waitomo/thumb.jpg",
+      "status": "published",
+      "sort_order": 2,
+
+      "categories": [
+        { "id": 2, "name": "地下秘境", "slug": "underground-wonders" }
+      ],
+      "tags": [
+        { "id": 4, "name": "洞穴探险", "slug": "caving" },
+        { "id": 5, "name": "被低估", "slug": "underrated" },
+        { "id": 6, "name": "此生必去", "slug": "bucket-list" },
+        { "id": 8, "name": "生态奇观", "slug": "ecological" }
+      ],
+      "images": [
+        {
+          "id": 4,
+          "url": "/images/destinations/waitomo/01-glowworms.jpg",
+          "thumbnail_url": "/images/destinations/waitomo/01-glowworms-thumb.jpg",
+          "alt_text": "洞穴顶部密集的蓝色萤光蠕虫，如星空般璀璨",
+          "width": 2400,
+          "height": 1600,
+          "sort_order": 0,
+          "is_cover": 1,
+          "photographer": "Shaun Jeffers",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        },
+        {
+          "id": 5,
+          "url": "/images/destinations/waitomo/02-boat.jpg",
+          "thumbnail_url": "/images/destinations/waitomo/02-boat-thumb.jpg",
+          "alt_text": "游客乘小船在暗河中观赏洞顶萤火虫",
+          "width": 2400,
+          "height": 1600,
+          "sort_order": 1,
+          "is_cover": 0,
+          "photographer": "Tobias Keller",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "越南 · 巨大之手",
+      "title_en": "Golden Bridge — Bà Nà Hills",
+      "slug": "golden-bridge-vietnam",
+      "subtitle": "一双巨手托起金色丝带，行走在云雾之间",
+      "summary": "岘港金桥位于巴拿山海拔 1,400 米处，全长 150 米的金色桥身被一双布满青苔的巨手托举——仿佛山神从大地中伸出双手，为凡人架起一条通往天堂的路。",
+      "description": "## 为什么不可思议\n\n越南岘港金桥（Cầu Vàng）建成于 2018 年，在极短时间内成为全球社交媒体上最火爆的旅行打卡地之一。桥身呈优雅的 S 形曲线，由一双巨大的石手从山体中「伸出」托举。\n\n### 设计的隐喻\n\n设计师 Vũ Việt Anh 的灵感来自越南神话：这双手是山神的手，从大地中将金色的丝绸（桥身）托举而出。手部的「苔藓纹理」意在表达这是一个古老的、与山体共生的存在，而非突兀的人造物。\n\n### 云中漫步\n\n巴拿山是法国殖民时期的避暑胜地，海拔 1,400 米的巴拿山顶常年云雾缭绕。走在金桥上，一半时间你可能看不见脚下的山谷——云海将桥身包裹，真正的「云中漫步」。\n\n### 不只是桥\n\n金桥所在的巴拿山太阳世界（Sun World Ba Na Hills）是一个完整的主题乐园——拥有世界上最长的非牵引式缆车系统（5.8 公里），以及一个仿法国中世纪村庄的娱乐区。但金桥的存在让整个乐园黯然失色。",
+      "country": "越南",
+      "region": "岘港市",
+      "continent": "亚洲",
+      "latitude": 15.9987,
+      "longitude": 107.9891,
+      "elevation": 1414,
+      "best_season": "3月 - 9月（云雾最多的季节）",
+      "difficulty": "easy",
+      "duration": "1天",
+      "budget": "budget",
+      "crowd_level": "high",
+      "temperature": "15°C ~ 25°C",
+      "visa_info": "持中国护照可申请电子签证，停留 30 天",
+      "language": "越南语",
+      "currency": "越南盾 (VND)",
+      "timezone": "UTC+7",
+      "fun_facts": [
+        "金桥在 2018 年建成的第一周，Instagram 上的照片就已超过 2 亿次浏览",
+        "那双巨手并非石雕——内部是钢结构骨架，外部是钢丝网和玻璃纤维，然后手工雕刻出石纹和苔藓纹理",
+        "桥身种植了 100 多种花卉，包括紫罗兰、菊花和越南国花莲花",
+        "缆车系统本身也是一项世界纪录——从山脚到山顶落差 1,292 米，全程 5.8 公里"
+      ],
+      "travel_tips": [
+        "清晨 7:00 开门时到达——上午 10 点后人潮汹涌，几乎无法拍出干净的照片",
+        "雨后天晴的早晨云雾最重、也最壮观——查好天气再出发",
+        "缆车票约 750,000 VND（≈220 RMB），包含金桥和整个太阳世界乐园",
+        "桥上不允许使用三脚架（人流太大），带个稳定器或手机即可",
+        "巴拿山顶比山脚低约 10°C，即使是夏天也建议带一件薄外套"
+      ],
+      "safety_notes": "景区管理完善，安全风险很低。主要注意周末和节假日人流量极大，需排队 1-2 小时上缆车。桥上栏杆高度有限，带小孩需格外注意。",
+      "getting_there": {
+        "nearest_airport": "岘港国际机场 (DAD)",
+        "routes": [
+          "从岘港市区打车/包车约 40 分钟到达巴拿山缆车站",
+          "从会安古城出发约 1.5 小时",
+          "Grab（东南亚版滴滴）约 200,000 VND 从岘港市区出发"
+        ],
+        "local_transport": "到达巴拿山山脚后，必须乘坐景区缆车上山——私家车无法上山"
+      },
+      "cover_image_url": "/images/destinations/golden-bridge/cover.jpg",
+      "thumbnail_url": "/images/destinations/golden-bridge/thumb.jpg",
+      "status": "published",
+      "sort_order": 3,
+
+      "categories": [
+        { "id": 1, "name": "自然奇观", "slug": "natural-wonders" }
+      ],
+      "tags": [
+        { "id": 2, "name": "无人机必飞", "slug": "drone-friendly" },
+        { "id": 3, "name": "日出日落", "slug": "sunrise-sunset" },
+        { "id": 5, "name": "被低估", "slug": "underrated" },
+        { "id": 7, "name": "INS网红", "slug": "instagrammable" }
+      ],
+      "images": [
+        {
+          "id": 6,
+          "url": "/images/destinations/golden-bridge/01-hands.jpg",
+          "thumbnail_url": "/images/destinations/golden-bridge/01-hands-thumb.jpg",
+          "alt_text": "金桥全景：金色桥身被一对布满青苔的巨手托举，云雾缭绕",
+          "width": 2400,
+          "height": 1350,
+          "sort_order": 0,
+          "is_cover": 1,
+          "photographer": "Hieu Tran",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        },
+        {
+          "id": 7,
+          "url": "/images/destinations/golden-bridge/02-clouds.jpg",
+          "thumbnail_url": "/images/destinations/golden-bridge/02-clouds-thumb.jpg",
+          "alt_text": "云雾从山谷升起，将桥身半掩半映",
+          "width": 2400,
+          "height": 1600,
+          "sort_order": 1,
+          "is_cover": 0,
+          "photographer": "Steve Douglas",
+          "source": "Unsplash",
+          "license": "Unsplash Free"
+        }
+      ]
+    }
+  ]
+}
